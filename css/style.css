@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Revalia';
+    src: url('../font-family/Revalia-Regular.woff2') format('woff2'),
+        url('../font-family/Revalia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../font-family/Roboto-Medium.woff2') format('woff2'),
+        url('../font-family/Roboto-Medium.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../font-family/Roboto-Regular.woff2') format('woff2'),
+        url('../font-family/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+h1 {
+    display:inline-block;
+    font-family:'Revalia';
+    color:#34547A;
+    font-size: 48px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.menu {
+    margin-right: 200px ;
+}
+
+.menu a {
+    float: right;
+    padding: 8px;
+    display: inline;
+    font-family: 'Roboto Regular';
+    color: #000000;
+    line-height: 26,25px;
+    text-decoration: none;
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 72px;
+}
+
+
+.menu .golovna {
+    color:#34547A;
+}
+
+#first {
+    background-color: #EEEFF1;
+    height: 90vh;
+}
+
+.text h2 {
+    font-family: 'Roboto Medium';
+    margin-right: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    padding-bottom:30px;
+}
+
+.text p {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    color: 727272;
+}
+
+.text {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}   
+
+.knopka a {
+    padding: 20px 50px;
+    width: 60px;
+    font-family:'Roboto Regular' ;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #34547A;
+    font-size: 15px;
+    text-align: center;
+    margin-left:100px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+
+}
+
+#first img { 
+    height: 233px;
+    float:left;
+    margin-left: 250px;
+    margin-top: 120px;
+} 
+
+.about h2 {
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 32px;
+    line-height:26,25px;
+
+}
+
+#about-author {
+    background-color: #ffffff;
+}
+
+.about { 
+    margin: 150px 300px;
+} 
+
+.about p {
+    font-family: 'Roboto Regular';
+    color:#727272;
+    text-align: center;
+}
+
+#projects {
+    color:#ffffff;
+    background-color: #34547A;
+    height: 200px;
+
+}
+
+.imgproject {
+    padding: 50px 120px;
+}
+
+.imgproject h3 {
+    text-align: top;
+    display: inline-block;
+    font-size: 21px;
+    font-family: 'Regular Medium';
+}
+
+.imgproject p {
+    text-align: middle;
+    display: inline-block;
+    font-family: 'Roboto Regular';
+}
+
+.imgproject img {
+    padding-left: 20px;
+    display: inline-block;
+    height: 80px;
+}
+
+#work {
+    padding: 100px 300px;
+    background-color: #EEEFF1;
+}
+
+#work h2 {
+    font-family: 'Roboto-Medium';
+    font-size:32px;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+#work p {
+    color:#727272;
+    text-align: center;
+    font-family: 'Roboto Regular';
+
+}
+
+.video img { 
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 400px;
+    max-width: 600px;
+    
+}
+
+.play img { 
+    position: absolute;
+    height: 100px;
+    left:600px;
+    top:1620px
+} 
+
+.img-images img {
+    width: 98.7vw;
+    height: 500px;
+}
+
+#img-section {
+    padding-top: 20px;
+    height:700px;
+}
+
+.microsoft img {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    height:40px;
+    padding-left: 15px ;
+} 
+
+#data h2 {
+    font-family: 'Roboto Medium';
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#data p {
+    font-family: 'Roboto Regular';
+    text-align: center;
+    color:#727272;
+}
+
+#data {
+    background-color: #EEEFF1;
+    height:700px;
+}
+
+.data-text {
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+
+.data-knopka {
+    display: inline-block;
+    padding-top:50px;
+    padding-left: 500px;
+}
+
+.data-knopka a {
+    padding: 20px 50px;
+    width: 60px;
+    font-family:'Roboto Regular' ;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #34547A;
+    font-size: 15px;
+    text-align: center;
+    margin-left:100px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+.data-name {
+    padding-right: 30px;
+    font-family:'Roboto Regular';
+    color:#727272;
+    display: inline-block;
+
+}
+
+.data-email {
+    padding-left: 0px;
+    font-family:'Roboto Regular';
+    color:#727272;
+    display: inline-block;
+
+}
+
+.data-problem {
+    display: inline-block;
+    outline: none;
+    resize: none;
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 500px;
+    height: 200px;
+    font-size: 14px;
+    font-family: 'Roboto Regular' ;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline:none;
+    border:0 solid;
+}
+
+.data-dani {
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+input {
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Regular';
+    height: 40px;
+    width: 235px;
+    outline: none;
+    border: 0 solid;
+}
+
+#footer {
+    background-color: #34547A;
+    height:100px;
+}
+
+.name-footer h3 {
+    font-family: 'Roboto Medium';
+    font-size: 21px;
+}
+
+.name-footer p {
+    padding-top: 10px;
+    font-family: 'Roboto Regular';
+    font-size: 13px;
+}
+
+.name-footer {
+    display: inline-block;
+    padding-top: 30px;
+    color:#ffffff;
+    padding-left: 200px;
+
+}
+
+.img-instagram img {
+    display: inline-block;
+    height:50px;
+    padding-left: 5px;
+    
+}
+
+.img-instagram {
+    margin-top: 30px;
+    margin-left: 500px;
+    display: inline-block;
+    height:40px;
+    padding-left: 15px ;
+}
