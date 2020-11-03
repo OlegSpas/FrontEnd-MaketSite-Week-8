@@ -83,8 +83,8 @@ h1 {
 .text {
     
     display: inline-block;
-    margin-right: 7.4%;
-    margin-left: 4.4%;
+    margin-right: 100px;
+    margin-left: 60px;
     padding-top: 100px;
     padding-bottom: 60px;
 }   
@@ -172,6 +172,7 @@ h1 {
 }
 
 #work h2 {
+    height:10vh;
     font-family: 'Roboto-Medium';
     font-size:32px;
     text-align:center;
@@ -196,8 +197,8 @@ h1 {
 .play img { 
     position: absolute;
     height: 100px;
-    left:600px;
-    top:1620px
+    left:45%;
+    top:260%;
 } 
 
 .img-images img {
