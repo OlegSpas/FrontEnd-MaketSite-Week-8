@@ -167,16 +167,16 @@ h1 {
 }
 
 #work {
-    padding: 100px 300px;
+    height: 100vh;
+    padding: 20px 300px 50px 300px;
     background-color: #EEEFF1;
 }
 
 #work h2 {
-    height:10vh;
     font-family: 'Roboto-Medium';
     font-size:32px;
     text-align:center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #work p {
@@ -188,7 +188,7 @@ h1 {
 
 .video img { 
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top:20px;
     height: 400px;
     max-width: 600px;
     
@@ -198,7 +198,7 @@ h1 {
     position: absolute;
     height: 100px;
     left:45%;
-    top:260%;
+    top:240%;
 } 
 
 .img-images img {
@@ -234,7 +234,7 @@ h1 {
 
 #data {
     background-color: #EEEFF1;
-    height:700px;
+    height:100vh;
 }
 
 .data-text {
